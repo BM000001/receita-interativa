@@ -3,6 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Receita Interativa</title>
+	<style>
+* {
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: black;
+  color: white;
+}
+#anotacao {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+#segredo h2{
+color: red;
+display: flex;
+  justify-content: center;
+  align-items: center;
+}
+	h2{
+	color:yellow}
+	</style>
 </head>
 <body>
 <header>
@@ -13,9 +33,7 @@
     </p>
 
     <img
-        src="https://via.placeholder.com/400x200?text=Pao+de+Queijo"
-        alt="Miojão"
-    >
+        src="https://via.placeholder.com/400x200?text=Pao+de+Queijo" alt="Miojão"><br>
 </header>
 
 <section>
@@ -82,7 +100,7 @@
 <section>
     <h2>Minhas Anotações</h2>
 
-    <div
+    <div id="anotacao"
         contenteditable="true"
         style="border: 1px dashed #999; padding: 10px;"
     >
